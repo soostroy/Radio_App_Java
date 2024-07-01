@@ -153,11 +153,11 @@ public class jordan_page extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (!mediaPlayer.isPlaying()) {
-                    streamURL = "https://jrtv-live.ercdn.net/jrradio/quranradiovideo.m3u8";
+                    streamURL = "https://jrtv-live.ercdn.net/jrradio/quranradio.m3u8";
 
                 } else {
                     stopRadioStream();
-                    streamURL = "https://jrtv-live.ercdn.net/jrradio/quranradiovideo.m3u8";
+                    streamURL = "https://jrtv-live.ercdn.net/jrradio/quranradio.m3u8";
                     playRadioStream();
 
                 }
